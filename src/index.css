@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Navigation Bar */
+.navbar {
+  background-color: black;
+  padding-top: 1%;
+}
+
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar li{
+  display: inline;
+  padding: 1%;
+  text-decoration: none;
+}
+
+.navbar a{
+  color: rgb(50, 154, 45);
+  text-decoration: none;
+}
