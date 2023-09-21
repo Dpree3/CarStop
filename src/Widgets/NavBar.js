@@ -8,8 +8,6 @@ const NavBar = () => {
                 <li><NavLink to='/services'>Services</NavLink></li>
             </ul>
         </div>
-       
-
     );
 }
  

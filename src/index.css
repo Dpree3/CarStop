@@ -16,10 +16,14 @@ code {
 .navbar {
   background-color: black;
   padding-top: 1%;
+  margin-bottom: 0px;
+  
 }
 
 .navbar ul {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .navbar li{
@@ -29,6 +33,61 @@ code {
 }
 
 .navbar a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+/* Root Layout */
+.rootlayout {
+  background-color: rgb(60, 61, 53);
+  height: 800px;
+
+}
+
+/* Home */
+.home {
+  
+}
+
+/* Services */
+.services {
+  background-color: rgb(60, 61, 53);
+  height: 1000px;
+}
+
+.services ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  height: 100vh; /* 100% of the viewport height */
+  margin: 0; /* Remove default margin */
+  padding: 0
+}
+
+.services li{
+  margin-right: 10%;
+  text-decoration: none;
+  width: 250px;
+  height: 200px;
+}
+
+.services a{
   color: rgb(50, 154, 45);
   text-decoration: none;
+}
+
+/* Service Option */
+
+.serviceOption {
+  background-color: black;
+  width: 100%;
+  height: 100%; 
+  text-align: center;
+  line-Height: 200px;
+  border-radius: 10px;
+}
+
+.serviceOption a{
+  color: white;
 }
